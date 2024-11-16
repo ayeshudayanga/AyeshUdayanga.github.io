@@ -1,0 +1,40 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+}
+
+/* Container that holds the text */
+.container {
+    text-align: center;
+}
+
+/* Style for the h1 text */
+h1 {
+    font-size: 4rem;
+    color: #333;
+}
+
+/* Make text responsive */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 3rem; /* Smaller text for smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 2rem; /* Even smaller text for very small screens */
+    }
+}
